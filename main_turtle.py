@@ -14,8 +14,21 @@ player.penup()
 #Set speed variable
 speed = 1
 
+#Define functions
+
+def turnleft():
+    player.left(30)
+
+#Set keyboard bindings
+turtle.listen()
+turtle.onkey(turnleft, "Left")
+
+
+
 while True:
     player.forward(speed)
+
+
 
 
 

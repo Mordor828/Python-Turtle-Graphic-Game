@@ -51,6 +51,10 @@ turtle.onkey(increasespeed, "Up")
 while True:
     player.forward(speed)
 
+    #boundary Checking
+    if player.xcor() > 300 or player.xcor() < -300:
+        player.right(180)
+
 
 
 

@@ -5,6 +5,12 @@ import turtle
 wn = turtle.Screen()
 wn.bgcolor("lightgreen")
 
+#Draw border
+mypen = turtle.Turtle()
+mypen.penup()
+mypen.setposition(-300,-300)
+
+
 #Create player turtle
 player = turtle.Turtle()
 player.color("blue")

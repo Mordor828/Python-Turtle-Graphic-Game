@@ -19,9 +19,13 @@ speed = 1
 def turnleft():
     player.left(30)
 
+def turnright():
+        player.right(30)
+
 #Set keyboard bindings
 turtle.listen()
 turtle.onkey(turnleft, "Left")
+turtle.onkey(turnright, "Right")
 
 
 

@@ -10,6 +10,7 @@ player = turtle.Turtle()
 player.color("blue")
 player.shape("triangle")
 player.penup()
+player.speed(0)
 
 #Set speed variable
 speed = 1
@@ -20,12 +21,18 @@ def turnleft():
     player.left(30)
 
 def turnright():
-        player.right(30)
+    player.right(30)
+
+def increasespeed():
+     global speed
+     speed += 1
+
 
 #Set keyboard bindings
 turtle.listen()
 turtle.onkey(turnleft, "Left")
 turtle.onkey(turnright, "Right")
+turtle.onkey(increasespeed, "Up")
 
 
 

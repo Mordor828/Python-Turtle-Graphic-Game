@@ -54,6 +54,13 @@ while True:
     #boundary Checking
     if player.xcor() > 300 or player.xcor() < -300:
         player.right(180)
+    
+    #boundary Checking
+    if player.ycor() > 300 or player.ycor() < -300:
+        player.right(180)
+
+
+    
 
 
 

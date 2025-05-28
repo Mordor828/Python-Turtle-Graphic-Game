@@ -24,6 +24,13 @@ player.shape("triangle")
 player.penup()
 player.speed(0)
 
+#Create goal
+goal = turtle.Turtle()
+goal.color("red")
+goal.shape("circle")
+goal.penup()
+goal.speed(0)
+
 #Set speed variable
 speed = 1
 

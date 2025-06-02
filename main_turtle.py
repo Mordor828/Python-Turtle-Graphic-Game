@@ -1,6 +1,6 @@
 #Turtle Graphic Game 
 import turtle
-import math
+
 
 #Set up screen
 wn = turtle.Screen()

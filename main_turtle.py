@@ -1,5 +1,6 @@
 #Turtle Graphic Game 
 import turtle
+import math
 
 #Set up screen
 wn = turtle.Screen()
@@ -30,6 +31,8 @@ goal.color("red")
 goal.shape("circle")
 goal.penup()
 goal.speed(0)
+goal.setposition(-100,-100)
+
 
 #Set speed variable
 speed = 1
@@ -65,6 +68,11 @@ while True:
     #boundary Checking
     if player.ycor() > 300 or player.ycor() < -300:
         player.right(180)
+
+
+
+
+    
 
 
     

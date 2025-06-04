@@ -1,3 +1,3 @@
-Aborted code!
+Change my mind. Will continue codig.
 
-Have to abort this code. The tutorial I'm following is using a different program than VSC, so it's difficult to know what syntax he is using. 
+Will try to adapt it with VSC despite following a tutorial that uses a different code language program.

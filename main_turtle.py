@@ -70,22 +70,8 @@ while True:
         player.right(180)
 
 
+#Run new terminal and enter exit to stop the game
 
-
-    
-
-
-    
-
-
-
-
-
-
-
-
-
-delay = input("Press Enter to finish")
 
 
 
